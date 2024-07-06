@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS',sans-serif;
+}
+
+img{
+    float: right;
+}
+
+.intro{
+    background-color: #2F5A78;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+
+
+.heading{
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.prof{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.subheading{
+    font-size: 20px;
+    font-weight: bolder;;
+    color: #2F5A78;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #eeeeee;
+}
+
+.icon{
+    float: left;
+    color: #2F5A78;
+}
+
+.skills ul li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+
+.skill_name{
+    width: 4px;
+}
+
+.skills ul li.skill_prog{
+    width: 60%;
+    height: 5px;
+    position: relative;
+}
+
+.skills ul li.skill_prog span{
+    position: absolute;
+    height: 100%;
+    background: #2F5A78;
+    padding-right: 50px;
+}
+/* "skill_prog" and "span" are HTML elements. 
+The former is a class. The latter is (not sure).
+
+Seems like value belongs to the light blue require stopping in front of them in CSS
+whereas dark blue in HTML dont't need stopping in front
+
+The two blocks of code are exactly the same but don't know why the progress bar don't show.*/
+
+.skill_per{
+    margin-right: 15px;
+}
+
+.date{
+    font-size: 16px;
+    color: #2F5A78;
+    font-weight: bold;
+}
+
+.jobinfo{
+    font-weight: bold;
+}
+
+.jobtitle{
+    font-weight: bold;
+}
+
+.social{
+    padding-left: 16px;
+}
